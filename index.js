@@ -1,4 +1,4 @@
-import makeWASocket, { useMultiFileAuthState, DisconnectReason } from '@whiskeysockets/baileys';
+const { default: makeWASocket, useMultiFileAuthState, DisconnectReason } = require('@whiskeysockets/baileys');
 const { isJidGroup } = require('@whiskeysockets/baileys');
 const fs = require('fs');
 
@@ -107,6 +107,5 @@ async function startSock() {
         }
     });
 }
-
 
 startSock();
