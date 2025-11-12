@@ -1,17 +1,21 @@
 {
-  "name": "wa-bot-fitur-grup",
+  "name": "whatsapp-bot",
   "version": "1.0.0",
-  "description": "WhatsApp bot dengan fitur antisharelink, antilongtext, dan sharetext ke semua grup.",
+  "description": "Simple WhatsApp Bot with Admin and Broadcast features.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
-  "author": "rickynvnda",
-  "license": "MIT",
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
-    "@hapi/boom": "^10.0.0",
-    "@whiskeysockets/baileys": "^6.7.21",
+    "whatsapp-web.js": "^1.23.0",
     "qrcode-terminal": "^0.12.0"
-  },
-  "keywords": []
+  }
 }
