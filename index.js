@@ -10,7 +10,7 @@ const PREFIX = '.'; // Prefix perintah
 // Format: 'NomorTelepon@c.us' (Contoh: '6281234567890@c.us')
 const OWNER_IDS = [
     '6281227701623@c.us', 
-    '628980296227@c.us'  
+    '6285753925263@c.us'  
     // Tambahkan ID lain di sini jika ada
 ]; 
 
